@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hot Gadgets</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="logo.png" alt="">
@@ -38,13 +39,14 @@
   </div>
 
     <div class="container">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide bg-img" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
+            <div class="row align-items-center ">
               <div class="col-md-7">
-                <h3>Mackbook Pro</h3>
+                <h1>Mackbook Pro</h1>
                 <p>Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                <button class="buy-now-button">Buy Now →</button>
               </div>
               <div class="col-md-5">
                 <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
@@ -52,10 +54,11 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
+            <div class="row align-items-center">
               <div class="col-md-7">
-                <h3>Mi Sound Assistent</h3>
+                <h1>Mi Sound Assistent</h1>
                 <p>You have lots of money and you west money please buy it</p>
+                <button class="buy-now-button">Buy Now →</button>
               </div>
               <div class="col-md-5">
                 <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
@@ -63,10 +66,11 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
+            <div class="row align-items-center">
               <div class="col-md-7">
-                <h3>JBU HIGH Quality Sound Box</h3>
+                <h1>JBU HIGH Quality Sound Box</h1>
                 <p>Please buy it. Your need one Sound box ..</p>
+                <button class="buy-now-button">Buy Now →</button>
               </div>
               <div class="col-md-5">
                 <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
@@ -84,6 +88,127 @@
         </button>
       </div>
     </div>
+
+    <div class="container ">
+      <h3>Smartphone</h3>
+      <h3 class="d-flex justify-content-end end-text">See All</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-center">
+            <img src="phone/phone-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 13Pro</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$999</h5>
+              <button class="buy-now-button ">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <img src="phone/phone-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy Note10+</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$799</h5>
+              <button class="buy-now-button">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <img src="phone/phone-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PoKo M3</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5>$699</h5>
+              <button class="buy-now-button">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <h3>Laptop</h3>
+      <h3 class="d-flex justify-content-end end-text">See All</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4 bg-img2">
+        <div class="col">
+          <div class="card text-center">
+            <img src="laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asus VivoBook</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$1999</h5>
+              <button class="buy-now-button ">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <img src="laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade i5</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5>$2799</h5>
+              <button class="buy-now-button">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <img src="laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5>$1699</h5>
+              <button class="buy-now-button">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <div class="d-flex justify-content-center">
+        <h3>Categories</h3>
+        
+      </div>
+    </div>
+      <div class="container d-flex align-items-center justify-content-center back-img">
+        <div class="row d-flex justify-content-evenly align-items-center">
+          <div class="col-md-3">
+            <div class="cat text-center" >
+              <img src="Categories/bag.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Bag</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cat text-center" >
+              <img src="Categories/perfume.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Beauty</h5>
+              </div>
+            </div>
+            <br>
+            <div class="cat text-center" >
+              <img src="Categories/shoe.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Shoes</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class=" text-center">
+              <img src="Categories/pale-order.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+      </div>
+      </div>
+    
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
